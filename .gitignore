@@ -1,0 +1,11 @@
+.venv/
+.DS_Store
+.env*
+!.env.example
+__pycache__/
+db.sqlite3
+node_modules/
+ngrok
+static/styles/
+static/scripts/
+staticfiles/

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "懶人救星 \\ 查高鐵 /"
+version = "0.1.0"
+description = "希望能讓大家更快速查詢到高鐵車次、票價、剩餘座位！"
+authors = ["KangPei <s522tw@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.2"
+line-bot-sdk = "^3.13.0"
+
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^3.29.1"
+python-dotenv = "^1.0.1"
+pre-commit = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
