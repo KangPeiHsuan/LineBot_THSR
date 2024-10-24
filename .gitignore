@@ -9,3 +9,4 @@ ngrok
 static/styles/
 static/scripts/
 staticfiles/
+*note.py
